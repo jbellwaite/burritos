@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+}
+#ourpage {
+  height: 100%;
+}
+#tophalf {
+  position: top;
+  background-image: url("../img/natureburrito.jpg");
+  background-size: cover;
+  background-position: 10%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+h1 {
+
+  font-size: 100px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 64px;
+  font-weight: normal;
+}
+#tagline {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#bottomhalf {
+  background-color: white;
+  align-items: center;
+}
+
+.bottomthird {
+  width: 30%;
+  text-align: center;
+  color: grey;
+  float: left;
+}
