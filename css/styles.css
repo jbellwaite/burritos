@@ -8,28 +8,90 @@
   position: top;
   background-image: url("../img/natureburrito.jpg");
   background-size: cover;
-  background-position: 10%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-position: 0% 37%;
+  /*background: rgba(0, 0, 0, 1);*/
   color: white;
+  padding-bottom: 20px;
 }
 h1 {
-
+  margin-top: 30px;
   font-size: 100px;
   font-weight: normal;
+  text-shadow: 1px 1px 80px black;
 }
 h2 {
-  font-size: 64px;
+  font-size: 62px;
   font-weight: normal;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 80px black;
 }
+
+#logo {
+  font-size: 40px;
+  text-shadow: 1px 1px 15px gray;
+}
+
+#stripe {
+  border-top: 2px solid white;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: 105px;
+  margin-right: 105px;
+}
+
 #tagline {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  /*padding-bottom: 40px;*/
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 90%;
 }
+
+
+.header-right {
+  float:right;
+  padding-right: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#header {
+  padding-left: 20px;
+  padding-top: 20px;
+  text-shadow: 1px 1px 15px gray;
+}
+
+button {
+  text-transform: uppercase;
+  background: skyblue;
+  border: skyblue;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px;
+  font-size: 18px;
+  box-shadow: 2px 2px 15px black;
+  margin-top: -20px;
+  border-radius: 3px;
+}
+
+#lastline {
+  padding-top: 20px;
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+  text-shadow: 1px 1px 15px black;
+  font-family: serif;
+}
+
 
 #bottomhalf {
   background-color: white;
-  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .bottomthird {
@@ -37,4 +99,25 @@ h2 {
   text-align: center;
   color: grey;
   float: left;
+  margin: 45px;
+  font-size: 15px;
+  font-family: serif;
+  line-height: 130%;
+}
+
+.bottomheader {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.icons {
+  height: 10%;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 70px;
+  margin: 15px;
+  filter: opacity(50%);
+  /*margin-bottom: 15px;*/
 }
